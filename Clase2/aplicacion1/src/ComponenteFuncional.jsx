@@ -9,6 +9,13 @@ const ComponenteFuncional =()=>{
         </div>
     )
 }*/
+
+//CON PROPS
+/*const Saludo = (props)=>{
+    return <h1>Hola, {props.name}!</h1>
+}
+export default Saludo*/
+
 //CON PALABRA FUNCTION
 function ComponenteFuncional(){
     return(
