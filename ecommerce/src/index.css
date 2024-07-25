@@ -1,0 +1,67 @@
+/* src/styles/App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+header {
+  background-color: #ffcc00;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  margin: 0;
+  color: #333;
+}
+
+.container {
+  display: flex;
+  padding: 20px;
+}
+
+.product-list, .cart {
+  flex: 1;
+  margin: 0 20px;
+}
+
+.product-item, .cart-item {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-item h2, .cart-item h2 {
+  margin: 0 0 10px;
+  font-size: 18px;
+}
+
+.product-item p, .cart-item p {
+  margin: 0 0 10px;
+}
+
+button {
+  background-color: #ffcc00;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #e6b800;
+}
+
+input[type="number"] {
+  width: 50px;
+  padding: 5px;
+  text-align: center;
+}
